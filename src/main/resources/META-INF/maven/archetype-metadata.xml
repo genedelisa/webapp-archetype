@@ -32,5 +32,93 @@
         <include>README.md</include>
       </includes>
     </fileSet>
+
+
+      <fileSet encoding="UTF-8">
+          <directory>src/main/java</directory>
+          <includes>
+              <include>**/*</include>
+          </includes>
+      </fileSet>
+      <fileSet encoding="UTF-8">
+          <directory>src/main/resources</directory>
+          <includes>
+              <include>**/*</include>
+          </includes>
+      </fileSet>
+
+      <fileSet encoding="UTF-8">
+          <directory>src/main/resources/config</directory>
+          <includes>
+              <include>**/*</include>
+          </includes>
+      </fileSet>
+      <fileSet encoding="UTF-8">
+          <directory>src/main/resources/i18n</directory>
+          <includes>
+              <include>**/*</include>
+          </includes>
+      </fileSet>
+      <fileSet encoding="UTF-8">
+          <directory>src/main/webapp/fonts</directory>
+          <includes>
+              <include>**/*</include>
+          </includes>
+      </fileSet>
+      <fileSet encoding="UTF-8">
+          <directory>src/main/webapp/i18n</directory>
+          <includes>
+              <include>**/*</include>
+          </includes>
+      </fileSet>
+      <fileSet encoding="UTF-8">
+          <directory>src/main/webapp/images</directory>
+          <includes>
+              <include>**/*</include>
+          </includes>
+      </fileSet>
+      <fileSet encoding="UTF-8">
+          <directory>src/main/webapp/scripts</directory>
+          <includes>
+              <include>**/*</include>
+          </includes>
+      </fileSet>
+      <fileSet encoding="UTF-8">
+          <directory>src/main/webapp/styles</directory>
+          <includes>
+              <include>**/*</include>
+          </includes>
+      </fileSet>
+      <fileSet encoding="UTF-8">
+          <directory>src/main/webapp/views</directory>
+          <includes>
+              <include>**/*</include>
+          </includes>
+      </fileSet>
+
+      <fileSet encoding="UTF-8">
+          <directory>src/test/java</directory>
+          <includes>
+              <include>**/*</include>
+          </includes>
+      </fileSet>
+      <fileSet encoding="UTF-8">
+          <directory>src/test/javascript</directory>
+          <includes>
+              <include>**/*</include>
+          </includes>
+      </fileSet>
+      <fileSet encoding="UTF-8">
+          <directory>src/test/javascript/spec</directory>
+          <includes>
+              <include>**/*</include>
+          </includes>
+      </fileSet>
+      <fileSet encoding="UTF-8">
+          <directory>src/test/resources</directory>
+          <includes>
+              <include>**/*</include>
+          </includes>
+      </fileSet>
   </fileSets>
 </archetype-descriptor>
