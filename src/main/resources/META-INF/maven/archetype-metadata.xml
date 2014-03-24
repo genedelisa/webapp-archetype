@@ -23,49 +23,13 @@
         <include>**/*.htaccess</include>
       </includes>
     </fileSet>
-    <fileSet filtered="true" encoding="UTF-8">
-      <directory>.idea/artifacts</directory>
-      <includes>
-        <include>**/*.xml</include>
-      </includes>
-    </fileSet>
-    <fileSet filtered="true" encoding="UTF-8">
-      <directory>.idea</directory>
-      <includes>
-        <include>**/*.xml</include>
-      </includes>
-    </fileSet>
-    <fileSet filtered="true" encoding="UTF-8">
-      <directory>.idea/scopes</directory>
-      <includes>
-        <include>**/*.xml</include>
-      </includes>
-    </fileSet>
-    <fileSet filtered="true" encoding="UTF-8">
-      <directory>.idea/copyright</directory>
-      <includes>
-        <include>**/*.xml</include>
-      </includes>
-    </fileSet>
-    <fileSet encoding="UTF-8">
-      <directory>.idea</directory>
-      <includes>
-        <include>**/*.name</include>
-      </includes>
-    </fileSet>
-    <fileSet filtered="true" encoding="UTF-8">
-      <directory></directory>
-      <includes>
-        <include>nb-configuration.xml</include>
-      </includes>
-    </fileSet>
+
     <fileSet encoding="UTF-8">
       <directory></directory>
       <includes>
         <include>.bowerrc</include>
         <include>.gitignore</include>
         <include>README.md</include>
-        <include>webapp.iml</include>
       </includes>
     </fileSet>
   </fileSets>
